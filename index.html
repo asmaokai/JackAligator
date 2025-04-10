@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jack Aligator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+        </style>
+        <script>
+            function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");}
+        </script>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <label class="logoimg"><img src="images/logo.png" alt="logo" height="60px" /></label>
+                <label class="name"><a href="#">Jack Aligator</a></label>
+            </div>
+              <label class="hamburger">
+                <input type="checkbox">
+                <span class="menu"> <span class="hamburger"></span> </span>
+                <ul>
+                  <li> <a href="#">O mnie</a> </li>
+                  <li> <a href="#">Współpraca</a> </li>
+                  <li> <a href="#">Metamorfozy</a> </li>
+                  <li> <a href="#">Zaczynamy</a> </li>
+                </ul>
+                </label>
+
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <div class="info-left">
+                <h2>Zdrowe odżywianie</h2>
+                <p>Porady dotyczące zdrowej diety, dostosowanej do Twoich potrzeb.</p>
+                <img src="images/AVOchat.png" alt="jackass" height="500px">
+            </div>
+            <div class="info-center">
+                <img src="images/jack6.png" alt="jackass" />
+            </div>
+            <div class="info-right">
+                <h2>Indywidualne podejście</h2>
+                <p>Personalizowane plany żywieniowe oparte na nauce.</p>
+                <img src="images/service-img.jpg" alt="jackass" height="250px" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>
+                Developed by:
+                <a href="https://github.com/asmaokai>" rel="noopener" target="_blank">Jacek Dzienisiewicz</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

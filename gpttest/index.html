@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietetyk - Strona Mobilna</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+    </script>
+</head>
+<body>
+    <header>
+        <!-- <h1>Twój Dietetyk</h1>
+        <nav>
+            <button class="menu-toggle">☰</button>
+            <ul class="menu">
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="#">O mnie</a></li>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav> -->
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav> 
+          </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
+    </header>
+    <main>
+        <section class="photo">
+            <img src="/jack6.png" alt="Dietetyk">
+        </section>
+        <section class="info">
+            <h2>Zdrowe odżywianie</h2>
+            <p>Porady dietetyczne dostosowane do Twoich potrzeb.</p>
+        </section>
+    </main>
+</body>
+</html>
